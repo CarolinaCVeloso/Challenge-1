@@ -1,0 +1,173 @@
+/* --- CUSTOM PROPERTIES --- */ 
+
+:root {
+    /* colours */
+    --clr-dark: #120632;
+    --clr-light: #DECFBA;
+    --clr-white: #ffffff;
+
+    /* font-families */
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shippori Mincho', serif;
+   }
+
+/* RESET margins */
+body {
+   margin: 0;
+}
+
+body {
+    background-image: url(img/computador.png.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.logo-alura {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 2%;
+    box-shadow: 20px 20px 50px  #AA6C3D;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    background-color:#3C3D58;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #AA6C3D;
+    text-transform: lowercase;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 20px 50px #685850;
+}
+
+::placeholder { color: antiquewhite;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensagem{
+    border: none;
+    background-color: #3C3D58;
+    background-image: url(img/boneco.png);
+    background-size: 80%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: #AA6C3D;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: fixed;
+    box-shadow: 5px 20px 50px #685850;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left:50px;
+    border-radius: 20px;
+    background-color: #AA6C3D;
+    color: #3C3D58;
+    font-weight: bold;
+}
+
+
+.btn-encriptar:hover {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left:50px;
+    border-radius: 20px;
+    background-color: #474F6A;
+    color: #AA6C3D;
+    font-weight: bold;
+}
+
+.btn-desencriptar {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left:50px;
+    border-radius: 20px;
+    background-color: #AA6C3D;
+    color: #3C3D58;
+    font-weight: bold;
+}
+
+
+.btn-desencriptar:hover {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left:50px;
+    border-radius: 20px;
+    background-color: #474F6A;
+    color: #AA6C3D;
+    font-weight: bold;
+}
+
+p {
+    color: antiquewhite;
+    font-size: medium ;
+    margin-top: 10px;
+    margin-left: 45px;
+    
+}
+
+.btn-copiar {
+    display: flex;
+    padding: 10px;
+    margin-top: 400px;
+    margin-left: 250px;
+    border-radius: 20px;
+    background-color: #AA6C3D;
+    color: #3C3D58;
+    font-weight: bold;
+}
+
+.btn-copiar:hover {
+    display: flex;
+    padding: 10px;
+    margin-top: 400px;
+    margin-left: 250px;
+    border-radius: 20px;
+    background-color: #474F6A;
+    color: #AA6C3D;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
