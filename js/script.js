@@ -47,3 +47,11 @@ function desencriptar(stringDesencriptada) {
 
     return(stringDesencriptada)
 }       
+
+
+function copiarTexto() {
+    // Apenas para o usuário ter noção que o texto já está copiado
+    var textoCop = document.getElementsByClassName('mensagem');
+    navigator.clipboard.writeText(textoCop.value);
+    alert('Muito Bem Texto copiado!');
+}
