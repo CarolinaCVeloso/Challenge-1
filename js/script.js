@@ -48,10 +48,15 @@ function desencriptar(stringDesencriptada) {
     return(stringDesencriptada)
 }       
 
+//código botão copiar
+async function btnCopiar(doElemento) {
+    await navigator.clipboard.writeText(mensagem.value);
 
-function copiarTexto() {
-    // Apenas para o usuário ter noção que o texto já está copiado
-    var textoCop = document.getElementsByClassName('mensagem');
-    navigator.clipboard.writeText(textoCop.value);
-    alert('Muito Bem Texto copiado!');
 }
+
+const textarea = document.querySelector('mensagem');
+const botaoCopiar = document.querySelector('.btn-copiar');
+
+botaoCopiar.addEventListener('click', function() {
+  copiar(mensagem);
+})

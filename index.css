@@ -78,13 +78,14 @@ main {
 .buttons {
     display: flex;
     margin-top: 18px;
+    justify-content: center;
 }
 
 .btn-encriptar {
     display: flex;
     padding: 10px;
-    margin-top: 50px;
-    margin-left:50px;
+    margin-top: 40px;
+    margin-left:25px;
     border-radius: 20px;
     background-color: #AA6C3D;
     color: #3C3D58;
@@ -95,8 +96,8 @@ main {
 .btn-encriptar:hover {
     display: flex;
     padding: 10px;
-    margin-top: 50px;
-    margin-left:50px;
+    margin-top: 40px;
+    margin-left:25px;
     border-radius: 20px;
     background-color: #474F6A;
     color: #AA6C3D;
@@ -106,8 +107,8 @@ main {
 .btn-desencriptar {
     display: flex;
     padding: 10px;
-    margin-top: 50px;
-    margin-left:50px;
+    margin-top: 40px;
+    margin-left:25px;
     border-radius: 20px;
     background-color: #AA6C3D;
     color: #3C3D58;
@@ -118,8 +119,30 @@ main {
 .btn-desencriptar:hover {
     display: flex;
     padding: 10px;
-    margin-top: 50px;
-    margin-left:50px;
+    margin-top: 40px;
+    margin-left:25px;
+    border-radius: 20px;
+    background-color: #474F6A;
+    color: #AA6C3D;
+    font-weight: bold;
+}
+
+.btn-colar {
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left:25px;
+    border-radius: 20px;
+    background-color: #AA6C3D;
+    color: #3C3D58;
+    font-weight: bold;
+}
+
+.btn-colar:hover {
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left:25px;
     border-radius: 20px;
     background-color: #474F6A;
     color: #AA6C3D;
@@ -137,7 +160,7 @@ p {
 .btn-copiar {
     display: flex;
     padding: 10px;
-    margin-top: 400px;
+    margin-top: 380px;
     margin-left: 250px;
     border-radius: 20px;
     background-color: #AA6C3D;
@@ -148,7 +171,7 @@ p {
 .btn-copiar:hover {
     display: flex;
     padding: 10px;
-    margin-top: 400px;
+    margin-top: 380px;
     margin-left: 250px;
     border-radius: 20px;
     background-color: #474F6A;
@@ -168,6 +191,3 @@ footer p {
 
 
 }
-
-
-
